@@ -1,42 +1,32 @@
-#h1 header
-:: smile :: memo :
+# **Markdown vježba** 
+Ovo je dokument 📝 koji prezentira moj **``C++``** kod 😃
 
-> Neki tekst
-
-1. list item 1
-    -sub item 1
-    -sub item 2
-2. item 2
-    -sub item 1
-3. item 3
-
-| white | black |
-|------:|------:|
-|   1   |   0   |
-|   10  |   0   |
-
-Ide gas **`git commit -m "commit message"`** u cmd.
-
-## h2 header
-##### h6 header
-obican tekst
-ovo je **boldano**
-Yes sir  ~~italic~~italic~~ita~~ 
-
-[Primjer linka](#h1-header)
-
+## Program
 ```cpp
 #include <iostream>
 using namespace std;
 
-int main (){
+int main() {
 
-    cout << "Hello from markdown" << endl;
+    int a = 0;
+    cout << "Upisite troznamenkasti broj: ";
+    cin >> a;
+    
     system("pause");
     return 0;
 }
 ```
+### Pokretanje programa
 
- - [x] item 1
- - [x] item 2
- - [x] item 3
+ - Preuzmite [DevCpp](https://sourceforge.net/projects/orwelldevcpp/)
+ - Kreirajte novu datoteku i kopirajte kod unutra
+ - Prevedite
+ - Pokrenite
+ 
+### TODO
+ [x] Ispisati poruku za unos broja
+ [x] Omogućiti unos broja
+ [ ] Provjeriti jeli broj troznamenkast
+ [ ] Ispisati sumu znamenki broja
+
+[Povratak na vrh](#**Markdown-vježba**)
