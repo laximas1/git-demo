@@ -1,4 +1,3 @@
-Ernest Dudakovic 
 #h1 header
 :: smile :: memo :
 
